@@ -10,6 +10,7 @@ Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
+Meta.AppConfigId=5a5ca852-ca57-43d4-a2d5-90bd88d2a0d7
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
