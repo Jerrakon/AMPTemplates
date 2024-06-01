@@ -1,7 +1,7 @@
 [
     {
-        "ConfigFile": "",
-        "ConfigType": "json",
+        "ConfigFile": "WS\\Saved\\Config\\WindowsServer\\Engine.ini",
+        "ConfigType": "ini",
         "AutoMap": true
     }
 ]

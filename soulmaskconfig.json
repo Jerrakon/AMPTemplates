@@ -1,19 +1,55 @@
 [
     {
-        "DisplayName": "",
+        "DisplayName": "Server Name",
         "Category": "Server Settings",
-        "Description": "",
-        "Keywords": "",
-        "FieldName": "",
+        "Description": "Name of your Server in the Serverlist on Steam",
+        "Keywords": "server,name",
+        "FieldName": "SteamServerName",
         "InputType": "text",
         "IsFlagArgument": false,
-        "ParamFieldName": "",
+        "ParamFieldName": "SteamServerName",
         "IncludeInCommandLine": false,
-        "DefaultValue": "",
-        "Placeholder": "",
+        "DefaultValue": "Soulmask powerd by AMP",
+        "Placeholder": "Soulmask powerd by AMP",
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
         "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Settings",
+        "Description": "Maximum Players on your Server",
+        "Keywords": "max,players",
+        "FieldName": "MaxPlayers",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxPlayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "20",
+        "Placeholder": "20",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "PvP",
+        "Category": "Server Settings",
+        "Description": "PvP Mode enable or dissable",
+        "Keywords": "pvp",
+        "FieldName": "pvp",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "pvp",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "Placeholder": "false",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {
+            "False": "fasle"
+        }
     }
 ]
